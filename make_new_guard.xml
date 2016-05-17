@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.conners.guardtracker.CreateGuard">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_spot_1_text"
+            android:id="@+id/addSpot1TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/spot1_hint"
+            android:ems="10"
+            android:id="@+id/guard1ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_spot_2_text"
+            android:id="@+id/addSpot2TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="guard name"
+            android:ems="10"
+            android:id="@+id/guard2ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_spot_3_text"
+            android:id="@+id/addSpot3TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/spot3_hint"
+            android:ems="10"
+            android:id="@+id/guard3ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_spot_4_text"
+            android:id="@+id/addSpot4TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/spot4_hint"
+            android:ems="10"
+            android:id="@+id/guard4ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_spot_5_text"
+            android:id="@+id/addSpot5TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/spot5_hint"
+            android:ems="10"
+            android:id="@+id/guard5ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_s_spot_1_text"
+            android:id="@+id/addSspot1TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/SlSpot1_hint"
+            android:ems="10"
+            android:id="@+id/guard6ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_s_spot_2_text"
+            android:id="@+id/addSspot2TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/SlSpot2_hint"
+            android:ems="10"
+            android:id="@+id/guard7ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_s_spot_3_text"
+            android:id="@+id/addSspot3TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/SlSpot3_hint"
+            android:ems="10"
+            android:id="@+id/guard8ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_s_spot_4_text"
+            android:id="@+id/addSspot4TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/SlSpot4_hint"
+            android:ems="10"
+            android:id="@+id/guard9ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/break_1_text"
+            android:id="@+id/addBreak1TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/break1_hint"
+            android:ems="10"
+            android:id="@+id/guard10ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="@string/break_2_text"
+            android:id="@+id/addBreak2TV"
+            android:layout_column="0"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="7dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/break2_hint"
+            android:ems="10"
+            android:id="@+id/guard11ET"
+            android:layout_column="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_gurads_button_text"
+            android:textColor="#fff"
+            android:background="#33cc33"
+            android:id="@+id/createGuard"
+            android:layout_column="0"
+            android:onClick="onCreateGuard"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_create_guards_button_text"
+            android:textColor="#fff"
+            android:background="#ff3333"
+            android:id="@+id/cancelButton"
+            android:layout_column="1"
+            android:onClick="onCancelCreate"/>
+    </TableRow>
+
+</TableLayout>
